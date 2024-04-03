@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg {
+    background-image: url("https://i.ibb.co/NWN5SH8/riad1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .bg2 {
+    background-image: url("https://i.ibb.co/c2wqGwm/Holar-Blog-13-Common-Spices-You-Can-Cannot-Grind-in-Your-Salt-and-Pepper-Grinder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .bg3 {
+    background-image: url("https://i.ibb.co/GtNXfY4/top-view-composition-with-different-kinds-of-natural-aromatic-spices-placed-on-slate-surface-backgro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .bg4 {
+    background-image: url("https://i.ibb.co/sCzGYxK/ingredients-8028223-1280.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .bg5 {
+    background-image: url("https://i.ibb.co/FXFRJWT/chili-3117498-640-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .bg6 {
+    background-image: url("https://i.ibb.co/n30mtc4/Whole-Cardamom-PNG-Picture-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .bg7 {
+    background-image: url("https://i.ibb.co/XS8n901/360-F-485573736-DKQJAQ2le0t11zog-Ty8p7-Iap-TEfgcd4-B-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
