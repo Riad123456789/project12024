@@ -8,14 +8,14 @@ const OurMission = () => {
 
 
             <div className="max-w-7xl mx-auto    lg:flex  px-2" >
-                <div className="h-[73%] w-[73%] mb:h-[50%] md:w-[60%]  mx-auto  flex-1">
+                <div className="h-[73%] w-[98%] mb:h-[50%] md:w-[60%]  mx-auto  flex-1">
                     <div className='relative xl:h-[73%] xl:w-[73%] lg:h-full lg:w-full mx-auto '>
                         <img className=" lg:mt-10 xl:mt-2 overflow-hidden shadow-lg shadow-slate-600" src="https://i.ibb.co/zP7DhsY/423422654-6984580211654130-6927551126586771729-n-1.jpg" alt="" />
 
                         <div className="absolute  bottom-0 xl:h-[18%] lg:h-[18%] md:h-[19%] h-[22%] w-full   opacity-40  bg-red-600">
                         </div>
 
-                        <div className="absolute  w-full bottom-2 md:bottom-5 xl:bottom-3  pl-5  ">
+                        <div className="absolute  w-full bottom-4 md:bottom-5 xl:bottom-3  pl-5  ">
                             <div className="">
                                 <p className=" text-white font-sans text-base lg:text-xl  ">ENGR. MD HUMAYUN KABIR</p>
                                 <p className=" text-white font-sans text-sm pt-1 lg:text-base">CEO & PROPRIETOR

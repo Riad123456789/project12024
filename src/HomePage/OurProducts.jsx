@@ -50,55 +50,49 @@ const OurProducts = () => {
                     </h1>
                 </div>
 
-                <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-16  items-center px-2 pt-3">
+                <div className="md:max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 px-2 md:gap-5 lg:gap-6 xl:gap-11   lg:px-5">
                     {currentProducts.map((item) => (
                         <div
                             key={item?.id}
-                            className="relative transition-all duration-300 cursor-pointer filter md:grayscale hover:grayscale-0 rounded-xl bg-gradient-to-r from-[#dbdddc] to-[#b8b8b8] hover:from-[#b38633] hover:to-[#34c586] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg 
-                     w-full  h-[106%] md:h-[105%]  md:w-80 mx-auto "
+                            className="relative transition-all duration-300  filter md:grayscale hover:grayscale-0  bg-gradient-to-r from-[#0ba360] to-[#3cba92] hover:from-[#b38633] hover:to-[#34c586] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg 
+                     cursor-pointer px-2 py-2 md:px-3 md:py-3 rounded-md "
                         >
-                            <div className="overflow-hidden h-52 md:h-64">
+                            <div className="overflow-hidden rounded-lg">
                                 <img
-                                    className="h-full w-full rounded-t-xl"
+                                    className="h-[160px] w-96 md:h-56 md:w-96  rounded-lg group-hover:scale-110 cursor-pointer duration-1000"
                                     src={item?.image}
-                                    alt="product image"
+                                    alt="image"
                                 />
                             </div>
 
-                            <div className="px-3 pt-1 space-y-4 md:space-y-1">
+                            <div className="">
                                 <div>
-                                    <h5 className="text-[110%] md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white ">
-                                        {item?.name}
-                                    </h5>
+                                    <h1 className="flex justify-center font-serif font-medium  mt-2 md:mt-4 md:text-2xl">{item?.name}</h1>
                                 </div>
-                                <div className="flex items-center h-24 md:h-28 ">
-                                    <div className="flex items-center space-x-1 rtl:space-x-reverse">
-                                        <span className=" text-[55%] md:text-xs font-medium md:font-semibold text-justify  ">
-                                            {item?.description1}....
-                                        </span>
 
-                                    </div>
-                                </div>
-                                <div className="flex items-center justify-between ">
-                                    <div className="hidden md:flex items-center">
-                                        <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <p className="text-justify text-[50%] md:text-xs md:font-semibold  font-semibold pt-2 pb-3  md:h-24 h-24 "> {item?.description1}....</p>
+
+                                <div className="flex items-center  justify-between md:px-3 pt-4 py-1 pb-1">
+                                    <div className="flex items-center">
+                                        <svg className="w-3 h-3 md:w-4 md:h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                                             <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                         </svg>
-                                        <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <svg className="w-2 h-2 md:w-4 md:h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                                             <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                         </svg>
-                                        <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <svg className="w-2 h-2 md:w-4 md:h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                                             <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                         </svg>
-                                        <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <svg className="w-2 h-2 md:w-4 md:h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                                             <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                         </svg>
-                                        <svg className="w-4 h-4 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <svg className="w-2 h-2 md:w-4 md:h-4 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                                             <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                                         </svg>
                                     </div>
                                     <button
-                                        className="text-white bg-black hover:bg-red-500 font-medium rounded-lg text-xs   text-center btn-xs px-3 shadow-md shadow-slate-400 md:btn-sm"
+                                        className="text-white bg-black hover:bg-red-500 font-medium rounded-lg 
+                                        text-[55%]   text-center btn-xs  shadow-md shadow-slate-400 md:btn-sm"
                                         onClick={() => handleClick(item?.id)}
                                     >
                                         MORE  DETAILS

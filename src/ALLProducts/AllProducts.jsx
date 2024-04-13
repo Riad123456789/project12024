@@ -74,41 +74,24 @@ const AllProducts = () => {
                         <div className="ml-[-26px]  z-30"><LuSearch ></LuSearch></div>
                     </div>
                 </div>
+                <div className=" md:max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 px-2 md:gap-5 lg:gap-6 xl:gap-11 py-10 md:py-20  lg:px-5">
+                    {filteredData.map((item) => (
+                        <div key={item?.id} className={`cursor-pointer bg-gradient-to-r  from-[#0ba360] to-[#3cba92]    px-2 py-2 md:px-3 md:py-3 rounded-md `}>
 
-
-                <div className="pt-12 grid grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16 max-w-7xl mx-auto my-3 mb-10 px-1">
-                    {filteredData?.map((item) => (
-                        <div
-                            key={item?.id}
-                            className="relative transition-all duration-300 cursor-pointer filter hover:grayscale-0 rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg 
-                        w-full  h-[109%] md:h-[105%]  md:w-80 mx-auto "
-                        >
-                            <div className="overflow-hidden h-[214px]" href="#">
+                            <div className="overflow-hidden rounded-lg">
                                 <img
-                                    className="h-full w-full rounded-t-xl"
+                                    className="h-[160px] w-96 md:h-56 md:w-96  rounded-lg group-hover:scale-110 cursor-pointer duration-1000"
                                     src={item?.image}
-                                    alt="product image"
+                                    alt="image"
                                 />
                             </div>
-                            <div className="px-3 pt-1 space-y-5 md:space-y-1">
-                                <div>
-                                    <h5 className="text-[100%] md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white ">
-                                        {item?.name}
-                                    </h5>
-                                </div>
-                                <div className="flex items-center h-24 md:h-28 ">
-                                    <div className="flex items-center space-x-1 rtl:space-x-reverse">
-                                        <span className=" text-[55%] md:text-xs font-medium md:font-semibold text-justify  ">
-                                            {item?.description1}
-                                        </span>
+                            <h1 className="flex justify-center font-serif font-medium  mt-2 md:mt-4 md:text-2xl">{item?.name}</h1>
 
-                                    </div>
-                                </div>
-                            </div>
-
+                            <p className="text-justify text-[50%] md:text-xs md:font-semibold px-2 pt-2 pb-4 md:pb-4 font-semibold"> {item?.description1}</p>
                         </div>
                     ))}
                 </div>
+
             </div>
         </div>
     );

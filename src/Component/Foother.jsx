@@ -16,7 +16,7 @@ const Foother = () => {
                 </div>
 
 
-                <div className='absolute bottom-10  lg:bottom-16 px-6 '>
+                <div className='absolute bottom-10  lg:bottom-16 px-6 md:pl-12 '>
                     <div className=" container sm:grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4 items-start justify-center">
 
                         <div className="flex flex-col my-8 lg:pl-10 ">
@@ -78,10 +78,10 @@ const Foother = () => {
                             At RK Trading, we are passionate about flavor. Founded with a mission to redefine the spice industry, we specialize in sourcing the finest ingredients from around the world to create exceptional spice blends, herbs, and seasonings.
                             </div>
                         </div>
-                        <div className="flex flex-col my-8  lg:pl-20 ">
+                        <div className="flex flex-col my-8  lg:pl-9">
                             <h2 className="font-medium text-2xl font-serif text-amber-400">GET IN TOUCH</h2>
-                            <div className="flex sm:flex-col flex-wrap gap-1 text-sm dark:text-blacK mt-2">
-                                <span className='flex justify-start items-center gap-1  py-2 pl-2 text-white font-semibold'><MdOutlineLocationOn />Wapda Road,Ullahpara,Sirajgonj</span>
+                            <div className="flex sm:flex-col flex-wrap gap-1 text-sm dark:text-blacK mt-2  ">
+                                <span className='flex justify-start items-center gap-1  py-2 pl-2  text-white font-semibold '><MdOutlineLocationOn />Wapda Road,jhikira,Ullahpara,Sirajgonj</span>
                                 <a className='flex justify-start items-center gap-1 py-2 pl-2 text-white font-semibold' ><HiOutlineMailOpen />rktradingbd777@gmail.com</a>
                                 <a className='flex justify-start items-center gap-1 py-2 pl-2 text-white font-semibold' ><MdOutlinePhoneInTalk /> +8801795579568</a>
                             </div>

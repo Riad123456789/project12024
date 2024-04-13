@@ -68,12 +68,11 @@ const GalleryPage = () => {
                             Dry Food
                         </button>
                     </div>
-                
+
                 </div>
 
                 <div className=" md:max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 px-2 md:gap-5 lg:gap-6 xl:gap-11 py-10 md:py-20  lg:px-5">
                     {filteredData.map((item) => (
-
                         <div key={item?.id} className={` h-[210px] md:h-[310px] md:w-80 mx-auto rounded-lg 
                         ${selectedCategory === "DryFood" && " bg-[#db331d]"
                             }
@@ -89,13 +88,9 @@ const GalleryPage = () => {
                                     alt="image"
                                 />
                             </div>
-
                             <h1 className="flex justify-center font-serif font-medium text-white mt-2 md:mt-4 md:text-2xl">{item?.name}</h1>
-
                         </div>
-
                     ))}
-
                 </div>
 
             </div>

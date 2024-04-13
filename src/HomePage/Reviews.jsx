@@ -28,7 +28,7 @@ const Reviews = () => {
                     </h1>
                 </div>
 
-                <div className='max-w-7xl mx-auto pt-12 px-3'>
+                <div className='max-w-7xl mx-auto pt-8 px-3 '>
                     <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                         autoplay={{
@@ -57,27 +57,19 @@ const Reviews = () => {
                     >
 
                         <SwiperSlide className=''>
-                            <div className='w-[95%] h-[60%] mx-auto  shadow-xl rounded-md'>
+                            <div className=' mx-auto  shadow-xl rounded-md'>
                                 <div className="px-6 p-8 text-justify bg-[#e6e5d5] border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
 
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-10 h-10" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Bonnie Green</div>
-                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
-                                                <div className="rating rating-xs">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                </div>
-                                            </div>
+                                        <img className="rounded-full w-14 h-14" src="https://i.ibb.co/hDdt1hg/Whats-App-Image-2024-04-07-at-1-02-17-PM.jpg" alt="profile picture" />
+                                        <div className="pl-4">
+                                            <div className='font-semibold'>Md. Ripon Hossen</div>
+                                            <div className='font-normal text-xs border'>Proprietor, MR TRADE INTERNATIONAL</div>
                                         </div>
                                     </figcaption>
                                     <blockquote className=" mt-4 text-gray-500  ">
-                                        <h3 className="text-sm font-medium text-gray-500 ">
-                                            I stumbled upon this website while looking for some unique spices to spice up my cooking, and I must say I was blown away by the variety they offer. From exotic blends to everyday staples, they have it all!
+                                        <h3 className="text-[65%] font-semibold text-gray-500 pb-4">
+                                            I've been buying spices from RK TRADING for years, and I'm always impressed by the quality and freshness. Their products never disappoint!
                                         </h3>
                                     </blockquote>
                                 </div>
@@ -86,13 +78,13 @@ const Reviews = () => {
 
 
                         <SwiperSlide className=''>
-                            <div className='w-[95%] h-[60%] mx-auto  shadow-xl rounded-md'>
+                            <div className=' mx-auto  shadow-xl rounded-md'>
                                 <div className="px-6 p-8 text-justify bg-[#e6e5d5] border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
 
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/b799xts/isolated-shot-young-handsome-male-260nw-2157606039.webp" alt="profile picture" />
+                                        <img className="rounded-full w-14 h-14" src="https://i.ibb.co/r5Z8Y9W/Whats-App-Image-2024-04-07-at-12-48-47-PM.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Robert</div>
+                                            <div>Md. Mozammel Haque, DIG</div>
                                             <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
                                                 <div className="rating rating-xs">
                                                     <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
@@ -105,96 +97,50 @@ const Reviews = () => {
                                         </div>
                                     </figcaption>
                                     <blockquote className=" mt-4 text-gray-500  ">
-                                        <h3 className="text-sm font-medium text-gray-500 pb-10">
-                                        Impressed by their quality control. Freshness and flavor are always on point.                                    </h3>
+                                        <h3 className="text-[65%] font-semibold text-gray-500 pb-4">
+                                            I absolutely love the spices from RK TRADING! The flavors are so rich and vibrant, and they really elevate my cooking to the next level.                                  </h3>
                                     </blockquote>
                                 </div>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className=''>
-                            <div className='w-[95%] h-[50%] mx-auto  shadow-xl rounded-md'>
+                            <div className=' mx-auto  shadow-xl rounded-md'>
                                 <div className="px-6 p-8 text-justify bg-[#e6e5d5] border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
-
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/YXcpX83/images-2.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Ryan</div>
-                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
-                                                <div className="rating rating-xs">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                </div>
-                                            </div>
+                                        <img className="rounded-full w-14 h-14" src="https://i.ibb.co/0tM3rpB/Whats-App-Image-2024-04-09-at-7-11-16-PM.jpg" alt="profile picture" />
+                                        <div className="pl-4">
+                                            <div className='font-semibold'>MD. SHAFIQUL ISLAM</div>
+                                            <div className='font-normal text-xs border'>Additional IGP,</div>
                                         </div>
                                     </figcaption>
                                     <blockquote className=" mt-4 text-gray-500  ">
-                                        <h3 className="text-sm font-medium text-gray-500 ">
-                                            The quality of the spices is top-notch, and the packaging ensures that they retain their freshness. I highly recommend this website to any home cook or chef looking to elevate their dishes.
-                                        </h3>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-
-                        <SwiperSlide className=''>
-                            <div className='w-[95%] h-[60%] mx-auto  shadow-xl rounded-md'>
-                                <div className="px-6 p-8 text-justify bg-[#e6e5d5] border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
-
-                                    <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/tHV3fJJ/enjoy-doing-what-seems-impossible-260nw-2137554453.webp" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Nathan</div>
-                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
-                                                <div className="rating rating-xs">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                    <blockquote className=" mt-4 text-gray-500  ">
-                                        <h3 className="text-sm font-medium text-gray-500 pb-10">
-                                            The quality of the spices is top-notch, and the packaging ensures that they retain their freshness.                                         </h3>
+                                        <h3 className="text-[65%] font-semibold text-gray-500 pb-4 md:pb-0">
+                                            I appreciate that RK Trading prioritizes sustainability and ethical sourcing. It feels good knowing that I'm supporting a company that cares about the planet and its people.                            </h3>
                                     </blockquote>
                                 </div>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className=''>
-                            <div className='w-[95%] h-[60%] mx-auto  shadow-xl rounded-md'>
+                            <div className=' mx-auto  shadow-xl rounded-md'>
                                 <div className="px-6 p-8 text-justify bg-[#e6e5d5] border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
-
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Albert</div>
-                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
-                                                <div className="rating rating-xs">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                                                </div>
-                                            </div>
+                                        <img className="rounded-full w-14 h-14" src="https://i.ibb.co/fQDCXkc/Whats-App-Image-2024-04-10-at-10-23-04-AM.jpg" alt="profile picture" />
+                                        <div className="pl-4">
+                                            <div className='font-semibold'>S.M Quamruzzaman</div>
+                                            <div className='font-normal text-xs border'>Consultant Horticulture, DAE</div>
                                         </div>
                                     </figcaption>
                                     <blockquote className=" mt-4 text-gray-500  ">
-                                        <h3 className="text-sm font-medium text-gray-500 ">
-                                            I've been a loyal customer of this spices website for several years now, and one thing that has always stood out to me is their commitment to quality control.
-                                        </h3>
+                                        <h3 className="text-[65%] font-semibold text-gray-500 pb-4">
+                                        The customer service at RK Trading is top-notch! They're always friendly, helpful, and willing to go the extra mile to ensure customer satisfaction.    </h3>
                                     </blockquote>
                                 </div>
                             </div>
                         </SwiperSlide>
+
+
 
 
 

@@ -19,7 +19,7 @@ const Banner2 = () => {
                     <Lottie className="w-14 h-14 md:w-16 md:h-16  " animationData={img}></Lottie>
                     <div>
                         <p className="text-white pl-1">call us</p>
-                        <p className="text-white">+8801919509903</p>
+                        <p className="text-white">+8801919509902</p>
                     </div>
                 </div>
             </div>

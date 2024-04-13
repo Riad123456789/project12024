@@ -1,5 +1,7 @@
-import { BigPlayButton, Player } from "video-react";
 import video from "../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4"
+import video1 from "../../public/New folder/WhatsApp Video 2024-03-28 at 8.35.49 PM.mp4"
+import video2 from "../../public/New folder/WhatsApp Video 2024-03-28 at 8.42.56 PM.mp4"
+import video3 from "../../public/New folder/WhatsApp Video 2024-03-28 at 8.42.56 PM.mp4"
 import img from "../../public/New folder/spices (1).gif"
 import img1 from "../../public/New folder/clove.gif"
 import img2 from "../../public/New folder/star-anise.gif"
@@ -37,58 +39,6 @@ const Blog = () => {
 
 
                 <div className="max-w-5xl mx-auto grid   md:grid-cols-2 gap-5 px-2">
-
-{/* 
-                    <div className=" flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden rounded-2xl ">
-
-                        <div className="w-full">
-                            <Player
-                                playsInline
-                                poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
-                            >
-                                <source src='../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4' type="video/mp4" />
-                                <BigPlayButton position="center" />
-                            </Player>
-                        </div>
-
-
-                    </div>
-
-                    <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden rounded-2xl">
-                        <Player
-                            playsInline
-                            poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
-                        >
-                            <source src='../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4' type="video/mp4" />
-                            <BigPlayButton position="center" />
-
-                        </Player>
-
-                    </div>
-
-                    <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden rounded-2xl">
-                        <Player
-                            playsInline
-                            poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
-                        >
-                            <source src={video} type="video/mp4" />
-                            <BigPlayButton position="center" />
-
-                        </Player>
-
-                    </div>
-
-                    <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden rounded-2xl">
-                        <Player
-                            playsInline
-                            poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
-                        >
-                            <source src={video} type="video/mp4" />
-                            <BigPlayButton position="center" />
-
-                        </Player>
-
-                    </div> */}
 
 
                     <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden rounded-2xl">
