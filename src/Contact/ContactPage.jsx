@@ -16,11 +16,11 @@ const ContactPage = () => {
                 </h1>
             </div>
 
-            <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-5 md:gap-24 mt-12 px-4 relative pt-4">
+            <div className="grid  md:grid-cols-3 xl:grid-cols-3 max-w-6xl mx-auto gap-8 xl:gap-10 md:gap-4 mt-12 px-4 md:px-2 relative pt-4 ">
 
 
 
-                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg hover:shadow-xl hover:shadow-slate-500">
+                <div className="border bg-slate-100 md:h-80 lg:h-72 py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg hover:shadow-xl hover:shadow-slate-500 ">
                     <div className="flex justify-center items-center mx-auto">
                         <IoMdMailUnread className="border-4 border-[#2c88de] rounded-full p-3 mx-3" size={80} color="#2c88de"></IoMdMailUnread>
                     </div>
@@ -30,22 +30,22 @@ const ContactPage = () => {
                     </p>
                 </div>
 
-                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg hover:shadow-xl hover:shadow-slate-500">
-                    <div className="flex justify-center items-center mx-auto">
+                <div className="border bg-slate-100 md:h-80 lg:h-72  py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg hover:shadow-xl hover:shadow-slate-500 ">
+                    <div className="flex justify-center items-center ">
                         <IoLocationSharp className="border-4 border-red-600 rounded-full p-3  mx-3" size={80} color="red"></IoLocationSharp>
                     </div>
                     <h2 className=" font-serif text-lg md:text-2xl font-semibold text-center">ADDRESS</h2>
 
                     <p className="font-sans text-center    text-sm md:text-sm font-semibold ">
-                        H# 33, Swan Garments Road,Dakkhin Khan,Uttara,Dhaka-1230
+                        <span className="font-semibold text-base uppercase">Address 1 : </span>   H# 33, Swan Garments Road,Dakkhin Khan,Uttara,Dhaka-1230
                     </p>
                     <p className="font-sans  text-center  text-sm md:text-sm font-semibold ">
-                        Jahangir Monjil, Wapda Road,
-                        Ullahpara,Sirajgonj
+                        <span className="font-semibold text-base uppercase">Address 2 : </span>  Jahangir Monjil, Wapda Road,
+                        (Beside Grameen Bank Branch & Area Office), Ullapara, Sirajgonj, BD
                     </p>
                 </div>
 
-                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg hover:shadow-xl hover:shadow-slate-500">
+                <div className="border bg-slate-100 md:h-80 lg:h-72  py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg hover:shadow-xl hover:shadow-slate-500 " >
                     <div className="flex justify-center items-center mx-auto ">
                         <FcCellPhone className="border-4 border-[#55779e] rounded-full p-3  mx-3" size={80} color="green"></FcCellPhone>
                     </div>

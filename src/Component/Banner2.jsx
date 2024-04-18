@@ -65,7 +65,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Green Cardamom</h1>
+                            <h1 className="text-sm md:text-3xl text-white w-[80%] mx-auto uppercase">Green Cardamom</h1>
                             <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 It aids digestion, helps control blood pressure, and can even alleviate morning sickness. Additionally, it's rich in antioxidants, which can help boost the immune system. Experts continue to study cardamom's potential benefits, but in the meantime this spice can make a great addition to your cupboard.......
                             </p>
@@ -113,7 +113,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Black Cardamom</h1>
+                            <h1 className="text-sm md:text-3xl text-white w-[80%] mx-auto uppercase">Black Cardamom</h1>
                             <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 The essential oil in black cardamom shows stomachic properties that may help promote the appetite or assist digestion. Therefore, it can be used to manage vomiting, indigestion, abdominal pains, rectal diseases, and biliousness......
                             </p>
