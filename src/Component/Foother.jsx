@@ -11,12 +11,12 @@ import { Link } from 'react-router-dom';
 const Foother = () => {
     return (
         <div>
-            <footer className="bg h-[610px] md:h-96 lg:h-[360px] relative  ">
+            <footer className="bg h-[700px] md:h-96 lg:h-[360px] relative  ">
                 <div className=' relative bg-gradient-to-r from-[#151514] to-[#000000] h-full opacity-80   '>
                 </div>
 
 
-                <div className='absolute bottom-10  lg:bottom-16 px-6 md:pl-12 '>
+                <div className='absolute bottom-16  lg:bottom-8 px-6 md:pl-12 '>
                     <div className=" container sm:grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4 items-start justify-center">
 
                         <div className="flex flex-col my-8 lg:pl-10 ">
@@ -75,15 +75,20 @@ const Foother = () => {
                         <div className="flex flex-col my-8  ">
                             <h2 className="font-medium text-2xl font-serif text-amber-400 ">ABOUT  RK TRADING</h2>
                             <div className="flex  flex-col gap-1 text-xs text-white font-serif mt-2">
-                            At RK Trading, we are passionate about flavor. Founded with a mission to redefine the spice industry, we specialize in sourcing the finest ingredients from around the world to create exceptional spice blends, herbs, and seasonings.
+                                At RK Trading, we are passionate about flavor. Founded with a mission to redefine the spice industry, we specialize in sourcing the finest ingredients from around the world to create exceptional spice blends, herbs, and seasonings.
                             </div>
                         </div>
                         <div className="flex flex-col my-8  lg:pl-9">
                             <h2 className="font-medium text-2xl font-serif text-amber-400">GET IN TOUCH</h2>
                             <div className="flex sm:flex-col flex-wrap gap-1 text-sm dark:text-blacK mt-2  ">
-                                <span className='flex justify-start items-center gap-1  py-2 pl-2  text-white font-semibold '><MdOutlineLocationOn />Wapda Road,jhikira,Ullahpara,Sirajgonj</span>
                                 <a className='flex justify-start items-center gap-1 py-2 pl-2 text-white font-semibold' ><HiOutlineMailOpen />rktradingbd777@gmail.com</a>
                                 <a className='flex justify-start items-center gap-1 py-2 pl-2 text-white font-semibold' ><MdOutlinePhoneInTalk /> +8801795579568</a>
+
+                                <div className='flex gap-1'>
+                                    <MdOutlineLocationOn className='pl-2' size={40} color='white ' />
+                                    <p className='text-white font-semibold pt-2'> Jahangir Monjil, Wapda Road, (Beside Grameen Bank Branch & Area Office), Ullapara, Sirajgonj, BD</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>

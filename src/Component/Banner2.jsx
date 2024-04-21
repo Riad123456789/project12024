@@ -34,7 +34,7 @@ const Banner2 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
                             <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Cumin Seeds</h1>
-                            <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
+                            <p className="text-[3%]  text-white text-justify md:text-xs w-[80%] mx-auto py-1 ">
                                 Cumin is a flowering plant in the family Apiaceae, native to the Irano-Turanian Region. Its seeds – each one contained within a fruit, which is dried – are used in the cuisines of many cultures in both whole and ground form.......
                             </p>
                         </div>
@@ -49,8 +49,8 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Dry Red Chili</h1>
-                            <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
+                            <h1 className="text-[80%] md:text-3xl text-white w-[80%] mx-auto uppercase">Dry Red Chili</h1>
+                            <p className="text-[3%]  text-white text-justify md:text-xs w-[80%] mx-auto py-1 ">
                                 Researchers have found that it can help heal ulcers. It also keeps your digestive system healthy and helps with stomach problems like gas and bloating. You should buy dried chilies and put them in your food every day to make it taste better and keep your digestive system healthy. They are good for your heart......
                             </p>
                         </div>
@@ -65,8 +65,8 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-sm md:text-3xl text-white w-[80%] mx-auto uppercase">Green Cardamom</h1>
-                            <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
+                            <h1 className="text-[80%] md:text-3xl text-white w-[80%] mx-auto uppercase">Green Cardamom</h1>
+                            <p className="text-[3%]  text-white text-justify md:text-xs w-[80%] mx-auto py-1 ">
                                 It aids digestion, helps control blood pressure, and can even alleviate morning sickness. Additionally, it's rich in antioxidants, which can help boost the immune system. Experts continue to study cardamom's potential benefits, but in the meantime this spice can make a great addition to your cupboard.......
                             </p>
                         </div>
@@ -81,8 +81,8 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Turmeric</h1>
-                            <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
+                            <h1 className="text-[80%] md:text-3xl text-white w-[80%] mx-auto uppercase">Turmeric</h1>
+                            <p className="text-[3%]  text-white text-justify md:text-xs w-[80%] mx-auto  ">
                                 Turmeric and curcumin have been studied in numerous clinical trials for various human diseases and conditions, with no high-quality evidence of any anti-disease effect or health benefit. There is no scientific evidence that curcumin reduces inflammation, as of 2020......
                             </p>
                         </div>
@@ -97,8 +97,8 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Cloves</h1>
-                            <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
+                            <h1 className="text-[80%] md:text-3xl text-white w-[80%] mx-auto uppercase">Cloves</h1>
+                            <p className="text-[2%]  text-white text-justify md:text-xs w-[80%] mx-auto py-1 ">
                                 Cloves are full of antioxidants, including eugenol. Antioxidants help your body fight free radicals, which damage your cells. By removing free radicals from your system, the antioxidants found in cloves can help lower your risk of developing heart disease, diabetes, and certain cancers......
                             </p>
                         </div>
@@ -113,8 +113,8 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-sm md:text-3xl text-white w-[80%] mx-auto uppercase">Black Cardamom</h1>
-                            <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
+                            <h1 className="text-[80%] md:text-3xl text-white w-[80%] mx-auto uppercase">Black Cardamom</h1>
+                            <p className="text-[3%]  text-white text-justify md:text-xs w-[80%] mx-auto py-2 ">
                                 The essential oil in black cardamom shows stomachic properties that may help promote the appetite or assist digestion. Therefore, it can be used to manage vomiting, indigestion, abdominal pains, rectal diseases, and biliousness......
                             </p>
                         </div>
