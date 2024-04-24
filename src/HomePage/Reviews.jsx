@@ -57,7 +57,7 @@ const Reviews = () => {
                     >
 
                         <SwiperSlide>
-                            <div className='bg-[#e6e5d5] h-40  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
+                            <div className='bg-[#e6e5d5] h-44  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
 
                                 <div className='flex gap-4 items-center'>
                                     <div>
@@ -89,7 +89,7 @@ const Reviews = () => {
 
 
                         <SwiperSlide>
-                            <div className='bg-[#e6e5d5] h-40  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
+                            <div className='bg-[#e6e5d5] h-44 w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
 
                                 <div className='flex gap-4 items-center'>
                                     <div>
@@ -120,7 +120,7 @@ const Reviews = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className='bg-[#e6e5d5] h-40  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
+                            <div className='bg-[#e6e5d5] h-44 w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
 
                                 <div className='flex gap-4 items-center'>
                                     <div>
@@ -152,7 +152,7 @@ const Reviews = () => {
 
 
                         <SwiperSlide>
-                            <div className='bg-[#e6e5d5] h-40  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
+                            <div className='bg-[#e6e5d5] h-44 w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
 
                                 <div className='flex gap-4 items-center'>
                                     <div>
@@ -183,7 +183,7 @@ const Reviews = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className='bg-[#e6e5d5] h-40  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
+                            <div className='bg-[#e6e5d5] h-44 w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
 
                                 <div className='flex gap-4 items-center'>
                                     <div>
@@ -215,7 +215,7 @@ const Reviews = () => {
 
 
                         <SwiperSlide>
-                            <div className='bg-[#e6e5d5] h-40  w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
+                            <div className='bg-[#e6e5d5] h-44 w-full px-3 py-4 border-gray-200 rounded-md shadow-md shadow-slate-400 ' >
 
                                 <div className='flex gap-4 items-center'>
                                     <div>

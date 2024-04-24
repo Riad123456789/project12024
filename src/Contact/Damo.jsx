@@ -39,7 +39,7 @@ const Damo = () => {
 
     return (
         <div className="max-w-6xl mx-auto  py-16">
-                  <div
+            <div
                 className="grid md:grid-cols-2 gap-16 items-center relative overflow-hidden p-10 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg  bg-white my-6 before:absolute before:right-0 before:w-[300px] before:bg-[#0ba360] before:h-full max-md:before:hidden">
                 <div>
 
@@ -56,7 +56,7 @@ const Damo = () => {
                                 className="px-2 py-3 bg-white w-full text-sm border-b-2 focus:border-[#0ba360] outline-none" />
 
                             {/* Email      */}
-                            <input type="email"required placeholder="Email"
+                            <input type="email" required placeholder="Email"
                                 className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#0ba360] outline-none" />
 
                             {/* Massage  */}
@@ -67,8 +67,7 @@ const Damo = () => {
                         {/* Submit Btn  */}
                         <div className="mt-12">
                             <button type="submit"
-                                className="text-black bg-gradient-to-r  from-lime-500 via-lime-400 to-lime-200 hover:bg-gradient-to-br  focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 font-sans w-full">
-                               
+                                className="text-black bg-gradient-to-r  from-[#0ba360] via-[#0ba360] to-lime-200 hover:bg-gradient-to-br  focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 font-sans w-full">
                                 Send Message
                             </button>
                         </div>
