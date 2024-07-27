@@ -74,7 +74,7 @@ const Foother = () => {
                         </div>
                         <div className="flex flex-col my-8  ">
                             <h2 className="font-medium text-2xl font-serif text-amber-400 ">ABOUT  RK TRADING</h2>
-                            <div className="flex  flex-col gap-1 text-xs text-white font-serif mt-2">
+                            <div className="flex font-semibold flex-col gap-1 text-sm text-white  mt-2">
                                 At RK Trading, we are passionate about flavor. Founded with a mission to redefine the spice industry, we specialize in sourcing the finest ingredients from around the world to create exceptional spice blends, herbs, and seasonings.
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Foother = () => {
 
                                 <div className='flex gap-1'>
                                     <MdOutlineLocationOn className='pl-2' size={40} color='white ' />
-                                    <p className='text-white font-semibold pt-2'> Jahangir Monjil, Wapda Road, (Beside Grameen Bank Branch & Area Office), Ullapara, Sirajgonj, BD</p>
+                                    <p className='text-white font-semibold pt-2'>House# 517/1, Jahangir Monjil, Jhikira, Wapda Road, (Nearby to Grameen Bank Branch & Area Office), Ullapara, Sirajgonj, BD</p>
                                 </div>
 
                             </div>

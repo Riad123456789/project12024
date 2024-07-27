@@ -20,25 +20,25 @@ const Test = () => {
                 >
 
                     <div className=" w-full h-[30vh] md:h-[88vh] shadow-2xl">
-                        <img className="h-full " src="https://i.ibb.co/VSN0wrX/vibes-1.png" alt="" />
+                        <img className="h-full " src="https://i.ibb.co/jRGy3W6/vibes-1-1.png" alt="" />
                     </div>
                     <div className=" w-full h-[30vh] md:h-[88vh] ">
-                        <img className="h-full" src="https://i.ibb.co/KKy6fHr/vibes-2-1.png" alt="" />
+                        <img className="h-full" src="https://i.ibb.co/4PZsKjm/vibes-2-1.png" alt="" />
                     </div>
                     <div className=" w-full h-[30vh] md:h-[88vh] ">
-                        <img className="h-full" src="https://i.ibb.co/nMwLs5t/vibes-6-1.png" alt="" />
+                        <img className="h-full" src="https://i.ibb.co/4pQ3TqK/vibes-6-1.png" alt="" />
                     </div>
                     <div className=" w-full h-[30vh] md:h-[88vh] ">
-                        <img className="h-full" src="https://i.ibb.co/g9vDpxF/vibes-5-1.png" alt="" />
+                        <img className="h-full" src="https://i.ibb.co/gjjWSx3/vibes-5-1.png" alt="" />
                     </div>
                     <div className=" w-full h-[30vh] md:h-[88vh] ">
-                        <img className="h-full" src="https://i.ibb.co/JHtKt1n/vibes-4-1.png" alt="" />
+                        <img className="h-full" src="https://i.ibb.co/pQzFg1c/vibes-4-1.png" alt="" />
                     </div>
                     <div className=" w-full h-[30vh] md:h-[88vh] ">
-                        <img className="h-full " src="https://i.ibb.co/ZgwwcC1/Aura-Spices-web-banner-16-05-2022-01-1.jpg" alt="" />
+                        <img className="h-full " src="https://i.ibb.co/NYkgrQV/Aura-Spices-web-banner-16-05-2022-01-1.jpg" alt="" />
                     </div>
                     <div className=" w-full h-[30vh] md:h-[88vh] ">
-                        <img className="h-full " src="https://i.ibb.co/VSN0wrX/vibes-1.png" alt="" />
+                        <img className="h-full " src="https://i.ibb.co/jRGy3W6/vibes-1-1.png" alt="" />
                     </div>
 
                 </Carousel>

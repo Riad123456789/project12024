@@ -11,7 +11,7 @@ import img from "../../public/o6e5X8Ct60.json"
 import Lottie from "lottie-react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import img1 from "../../public/New folder/Group 5 (1).svg"
 
 const Navber = ({ children }) => {
 
@@ -133,8 +133,10 @@ const Navber = ({ children }) => {
 
 
                             <div className="avatar ">
-                                <div className="w-9 md:w-[52px] rounded-full">
-                                    <img src="https://i.ibb.co/8MLXy0k/395030218-354819416996869-7748260630163794940-n.jpg" />
+                                <div className="w-9 md:w-[40px] rounded-full border">
+                                    <Link to={"/"}>
+                                        <img src={img1} />
+                                    </Link>
                                 </div>
                             </div>
                             <a className=" pl-2 text-base md:text-xl font-bold ">

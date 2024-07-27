@@ -1,4 +1,4 @@
-
+import img from "../../public/New folder/WhatsApp Image 2024-05-22 at 1.41.49 PM.jpeg"
 
 const Recognition = () => {
     return (
@@ -20,7 +20,7 @@ const Recognition = () => {
                 <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-9 md:gap-20 pt-16  ">
                     <img className="h-80 md:h-72 w-96 md:w-80 mx-auto rounded-sm shadow-lg shadow-slate-600" src="https://i.ibb.co/RhtVFHn/Whats-App-Image-2024-03-22-at-3-09-49-PM.jpg" alt="" />
                     <img className="h-96 md:h-96 w-96 md:w-80 mx-auto rounded-sm shadow-lg shadow-slate-600" src="https://i.ibb.co/PGy6T5k/Whats-App-Image-2024-03-22-at-3-57-31-PM.jpg" alt="" />
-                    <img className="h-80 md:h-72 w-96 md:w-80 mx-auto rounded-sm shadow-lg shadow-slate-600" src="https://i.ibb.co/hLLYW63/Whats-App-Image-2024-03-22-at-4-13-37-PM.jpg" alt="" />
+                    <img className="h-80 md:h-72 w-96 md:w-80 mx-auto rounded-sm shadow-lg shadow-slate-600" src={img} alt="" />
                 </div>
             </div>
 

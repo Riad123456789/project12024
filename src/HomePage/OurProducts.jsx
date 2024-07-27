@@ -118,7 +118,7 @@ const OurProducts = () => {
                                                 <div className=' mt-2 md:m-2'>
                                                     <div className='border-[1px] border-black'>
                                                         <h1 className='bg-green-400 text-center text-sm font-bold m-2'>{selectedProduct?.name}</h1>
-                                                        <img className='  md:w-52 h-60 p-2 mx-auto' src={selectedProduct?.image1} alt="" />
+                                                        <img loading="lazy" className=' md:w-52 h-60 p-2 mx-auto' src={selectedProduct?.image1} alt="" />
                                                         <h1 className='bg-green-400 text-center text-sm font-bold m-2'>Scientific classification</h1>
                                                         <div className='py-1 space-y-1'>
 
