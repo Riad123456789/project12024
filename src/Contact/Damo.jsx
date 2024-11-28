@@ -19,7 +19,7 @@ const Damo = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_n0020lb', 'template_gvwj0xe', form.current, {
+            .sendForm('service_cspd7yc', 'template_3p90msb', form.current, {
                 publicKey: 'lq-Z95euxr4fplb0-',
             })
             .then(
@@ -52,15 +52,15 @@ const Damo = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="space-y-4 mt-8 c">
                             {/* Name  */}
-                            <input type="text" required placeholder="Full Name"
+                            <input name="name" type="text" required placeholder="Full Name"
                                 className="px-2 py-3 bg-white w-full text-sm border-b-2 focus:border-[#0ba360] outline-none" />
 
                             {/* Email      */}
-                            <input type="email" required placeholder="Email"
+                            <input name="email" type="email" required placeholder="Email"
                                 className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#0ba360] outline-none" />
 
                             {/* Massage  */}
-                            <textarea required placeholder="Write Message"
+                            <textarea name="message" required placeholder="Write Message"
                                 className="px-2 pt-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#0ba360] outline-none"></textarea>
                         </div>
 
@@ -72,21 +72,6 @@ const Damo = () => {
                             </button>
                         </div>
                     </form>
-
-                    {/* Default Email  */}
-                    {/* <ul style={{ cursor: 'pointer' }} className="mt-8 flex justify-center lg:space-x-6 max-lg:flex-col max-lg:items-center max-lg:space-y-2 ">
-                        <li className="flex items-center hover:text-[#0ba360]">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='currentColor'
-                                viewBox="0 0 479.058 479.058">
-                                <path
-                                    d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
-                                    data-original="#000000" />
-                            </svg>
-                            <div className="text-current text-sm ml-3">
-                                <strong>riad80717@gmail.com</strong>
-                            </div>
-                        </li>
-                    </ul> */}
                 </div>
 
                 {/* Google Map  */}
